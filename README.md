@@ -1,1 +1,2 @@
-# hotel1
+# Hotel Website 
+## HTML5, CSS3, Flexbox
