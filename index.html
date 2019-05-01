@@ -15,13 +15,17 @@
 <body>
     <!-- Begin NavBar -->
     <div id="navbar">
+        <input type="checkbox" class="checkbox" id="click" hidden>
+
          <!-- Begin SideBar -->
          <div class="sidebar">
-            <div class="menu-icon">
-                <div class="line line-1"></div>
-                <div class="line line-2"></div>
-                <div class="line line-3"></div>
-            </div> 
+             <label for="click">
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div> 
+            </label>
 
             <ul class="social-icons-list">
                 <li>
@@ -42,6 +46,44 @@
             </div>
          </div>
          <!-- End SideBar -->
+         <!-- Begin Navigation -->
+         <nav class="nav">
+             <div class="nav-header">
+                 <h1 class="nav-heading">Five-Star Hotel</h1>
+
+                <form action="" class="nav-search">
+                    <input type="text" class="nav-search-input" placeholder="Search...">
+                    <button class="nav-search-btn">
+                            <i class="fas fa-search"></i>
+                    </button>
+                </form>
+             </div>
+             <ul class="nav-list">
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">home</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">about Five-Star Hotel</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">rooms</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">events</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">guests</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="#" class="nav-link">contact us</a>
+                 </li>
+             </ul>
+
+             <div class="copyright">
+                 <p>&copy; 2019. Five-Star Hotel. All Rights Reserved.</p>
+             </div>
+         </nav>
+         <!-- End Navigation -->
     </div>
 
     <!-- End NavBar -->
