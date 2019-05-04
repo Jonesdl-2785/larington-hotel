@@ -83,6 +83,10 @@ body {
     font-size: 1.5rem;
     color: #555555;
 }
+
+#date {
+  font-size: 1.3rem;
+}
 /* SideBar end */
 
 /* Navigation begin */
@@ -775,9 +779,103 @@ body {
 
   .creator-info {
     flex-direction: column;
+    text-align: center;
   }
 
   .copyright-text {
     order: 1;
+  }
+}
+
+media(max-width: 500px) {
+  .nav {
+    width: 28rem;
+  }
+
+  .nav-search-input {
+    width: 20rem;
+  }
+
+  .aboutus {
+    padding-bottom: 15rem;
+  }
+
+  .aboutus-heading {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  .subheading {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .aboutus-content {
+    padding: 5rem;
+  }
+  .image {
+    width: 13rem;
+  }
+
+  .hotel-heading {
+    font-size: 2rem;
+    margin: auto 0;
+  }
+
+  .banner {
+    height: 100%;
+    margin-top: -10rem;
+  }
+  .banner-heading {
+    font-size: 3rem;
+  }
+
+  .banner-slogan {
+    font-size: 2rem;
+  }
+
+  .common-heading {
+    font-size: 2rem;
+  }
+
+  .small-underline {
+    width: 5rem;
+  }
+
+  .large-underline {
+    width: 12rem;
+  }
+
+  .rm-crd-heading {
+    font-size: 1.5rem;
+  }
+
+  .rm-price {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+
+  .rm-crd-btn {
+    width: 12rem;
+    padding: 1rem .5rem;
+    font-size: 1rem;
+  }
+
+  .customers-text {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+
+  .footer-main {
+    padding: 2rem;
+  }
+
+  .footer-input {
+    width: 12rem;
+  }
+
+  .gallery-images {
+    width: 9rem;
   }
 }
