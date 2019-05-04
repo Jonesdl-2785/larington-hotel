@@ -12,3 +12,6 @@ This site was built using [GitHub Pages](https://jonesdl-2785.github.io/laringto
 
 ### Basic Features
 Sidebar Navigation 
+Javascript date function
+Responsive
+Transitions
